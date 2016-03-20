@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务三</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:0;
+        padding:20px;
+    }
+    .main{
+        background-color: #eee;
+        border: 1px solid #999;
+        padding: 20px;
+        /*used to clearfix floating*/
+        overflow: auto;
+
+    }
+    .Set{
+        background-color: white;
+        border: 1px solid #999;
+        padding: 20px;
+    }
+    .one{
+        width: 200px;
+        float: left;
+    }
+    .three{
+        width: 120px;
+        float: right;
+
+    }
+    .two{
+        /*one的长度加20px*/
+        margin-left: 220px;
+        /*three的长度加20px*/
+        margin-right: 140px;
+    }
+    img{
+        width: 80px;
+        height: 80px;
+
+    }
+    .three>img{
+        margin: 20px 0
+    }
+    .one>span{
+        float: right;
+        margin-top:0px;
+        font-size: 12px;
+    }
+</style>
+<body>
+<div class="main">
+    <div class="one Set">
+        <img src="\Shin.jpg" alt=""/>
+        <span>V2EX 围观队</span>
+    </div>
+
+    <div class="three Set">
+        <img src="\Shin.jpg" alt=""/>
+        <img src="\Shin.jpg" alt=""/>
+        <img src="\Shin.jpg" alt=""/>
+        <img src="\Shin.jpg" alt=""/>
+        <img src="\Shin.jpg" alt=""/>
+    </div>
+    <div class="two Set">
+        <h2>V2EX 围观队</h2>
+        <p>本团队成员来自不同地方多个职业，合理搭配能力，具有一定的计算机的基础知识技能。责任心上进心强，具有很好的团队协作能力与社会实践能力。</p>
+
+
+    </div>
+</div>
+</body>
+</html>
